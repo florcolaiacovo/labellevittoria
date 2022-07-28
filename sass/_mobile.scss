@@ -16,6 +16,9 @@
                 width: 30vw;
                 }
             }
+            .nav-link:hover{
+                color: rgba(221, 23, 23, 0.747);
+            }
             div, #navbarText, .navbar-collapse, .collapse{
                 ul, .navbar-nav, .me-auto, .mb-2{
                     li{
@@ -42,11 +45,10 @@ main{
         flex-direction: column;
         z-index: -3;
         h1{
+            width: 100%;
             text-align: center;
             color: antiquewhite;
-            font-size: 270%;
-            padding-left: 150px;
-            padding-right: 150px;
+            font-size: 250%;
         }
         p{
             color: antiquewhite;
@@ -309,6 +311,7 @@ section.fondo4{
                 font-family: 'Assistant', sans-serif;
                     width: 100%;
                     font-size: 130%;
+                    color: black;
 
             }
      

@@ -13,6 +13,9 @@
   nav div a img, nav div .nav-link img {
     width: 30vw;
   }
+  nav div .nav-link:hover {
+    color: rgba(221, 23, 23, 0.747);
+  }
   nav div div ul li .p-escritorio, nav div div .navbar-nav li .p-escritorio, nav div div .me-auto li .p-escritorio, nav div div .mb-2 li .p-escritorio, nav div #navbarText ul li .p-escritorio, nav div #navbarText .navbar-nav li .p-escritorio, nav div #navbarText .me-auto li .p-escritorio, nav div #navbarText .mb-2 li .p-escritorio, nav div .navbar-collapse ul li .p-escritorio, nav div .navbar-collapse .navbar-nav li .p-escritorio, nav div .navbar-collapse .me-auto li .p-escritorio, nav div .navbar-collapse .mb-2 li .p-escritorio, nav div .collapse ul li .p-escritorio, nav div .collapse .navbar-nav li .p-escritorio, nav div .collapse .me-auto li .p-escritorio, nav div .collapse .mb-2 li .p-escritorio {
     display: none !important;
   }
@@ -39,11 +42,10 @@
     z-index: -3;
   }
   main section.fondo1 h1 {
+    width: 100%;
     text-align: center;
     color: antiquewhite;
-    font-size: 270%;
-    padding-left: 150px;
-    padding-right: 150px;
+    font-size: 250%;
   }
   main section.fondo1 p {
     color: antiquewhite;
@@ -374,6 +376,7 @@
     font-family: 'Assistant', sans-serif;
     width: 100%;
     font-size: 130%;
+    color: black;
   }
   main section.fondo4 div.recetas div.bloque-recetas2 img.p-escritorio {
     display: none;
